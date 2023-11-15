@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tamek/static/css/main.99663861.css",
+    "main.js": "/tamek/static/js/main.2e7c4983.js",
+    "static/js/787.8a7ff9b8.chunk.js": "/tamek/static/js/787.8a7ff9b8.chunk.js",
+    "static/media/bgr.jpg": "/tamek/static/media/bgr.d2d6071bc9073ef5bff5.jpg",
+    "static/media/bgrforitems.jpg": "/tamek/static/media/bgrforitems.bcee71fb28a825aa4985.jpg",
+    "index.html": "/tamek/index.html",
+    "main.99663861.css.map": "/tamek/static/css/main.99663861.css.map",
+    "main.2e7c4983.js.map": "/tamek/static/js/main.2e7c4983.js.map",
+    "787.8a7ff9b8.chunk.js.map": "/tamek/static/js/787.8a7ff9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99663861.css",
+    "static/js/main.2e7c4983.js"
+  ]
+}
