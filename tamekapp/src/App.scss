@@ -1,0 +1,90 @@
+$bg-color: #f0efe4;
+$s-lightgreen: #B5B216;
+$s-red:  #8c2316;
+$font-color: #363736;
+$s-brown: #8B4513;
+$s-green: #3A9506;
+$nav-bar: #FFA500;
+$font-main: 'Arial';
+$bgr: 'bgr.jpg';
+$font-size: 18px;
+$bgr2: 'bgrforitems.jpg';
+
+
+
+body {
+  margin: 0; 
+  overflow: auto;
+}
+.tamek-logo {
+  background-image: url('tamek.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px; 
+  height: 50px;
+}
+
+.widthImg {
+  width: 100px;
+}
+
+.widthImg:hover{
+  opacity: 0.7;
+}
+
+
+.tamek-green {
+  background-color: $nav-bar!important;
+}
+.scrollama-container {
+  background-image: url($bgr);
+  background-size: cover; 
+  height: "100%";
+  background-attachment: fixed;
+}
+
+
+.bground {
+  background-image: url($bgr2);
+  background-size: contain; 
+  height: "100%";
+  background-attachment: fixed;
+}
+
+.tamekRed {
+  color: $s-red;
+  font-weight: bold;
+}
+
+p {
+  font-size: $font-size;
+}
+
+.os2 {
+  color: $s-green;
+}
+
+.inf {
+
+  opacity: 1;
+  background-color: $bg-color!important;
+}
+
+
+
+@media (max-width: 768px) {
+  .scroll{
+    height: 220vh;
+  }
+
+  .d-flex {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 769px) {
+  .scroll {
+    height: 100vh;
+  }
+}
+
